@@ -1,0 +1,46 @@
+{
+    "name": "dsa-practice",
+    "version": "0.0.0",
+    "description": "Algorithms and data-structures implemented on JavaScript",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zozolina123/dsa-practice.git"
+    },
+    "keywords": [
+      "computer-science",
+      "cs",
+      "algorithms",
+      "data-structures",
+      "javascript",
+      "algorithm",
+      "javascript-algorithms",
+      "sorting-algorithms",
+      "graph",
+      "tree",
+      "interview",
+      "interview-preparation"
+    ],
+    "author": "Serban Deaconu",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+      "lint": "eslint ./src/**",
+      "test": "jest",
+      "coverage": "npm run test -- --coverage"
+    },
+    "devDependencies": {
+      "@babel/cli": "7.20.7",
+      "@babel/preset-env": "7.20.2",
+      "@types/jest": "29.4.0",
+      "eslint": "8.33.0",
+      "eslint-config-airbnb": "19.0.4",
+      "eslint-plugin-import": "2.27.5",
+      "eslint-plugin-jest": "27.2.1",
+      "eslint-plugin-jsx-a11y": "6.7.1",
+      "jest": "29.4.1"
+    },
+    "engines": {
+      "node": ">=16.15.0",
+      "npm": ">=8.5.5"
+    }
+  }
